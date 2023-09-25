@@ -1,25 +1,8 @@
-//import CartWidget from "../../common/cartWidget/CartWidget";
-{/*import "./Navbar.css";
 
-export const Navbar = () => {
-  return (
-    <div classNameName={"containerNavbar"}>
-      <h1>Comision 47225</h1>
-      <ul classNameName="categories">
-        <li>Todas</li>
-        <li>Urbanas</li>
-        <li>Deportivas</li>
-      </ul>
-    <CartWidget />
-    </div>*/}
-  //);
-//};
 import "./navbar.css";
 import CartWidget from "../../common/cartWidget/CartWidget";
-import ItemListContainer from "../../pages/itemListContainer/ItemListContainer";
 
 export const Navbar = () => {
-  let saludo = "Hola Coder cuantos años tenes?";
   return (
     <div>
       <>
@@ -56,10 +39,11 @@ export const Navbar = () => {
                 <CartWidget />
             </ul>
           </nav>
-          <main>
-            <ItemListContainer saludo={saludo} edad={21} />
-          </main>
         </aside>
+        <footer>
+              <p class="texto-footer">&copy; 2023 Buhonero. Todos los derechos reservados.</p>
+              <p class="texto-footer">Whatever you want, Whenever you want it, You have it</p>
+        </footer>
       </>
     </div>
   );
