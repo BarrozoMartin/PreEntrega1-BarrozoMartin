@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+h1, h2, p, a, ul {
   margin: 0;
   padding: 0;
 }
@@ -16,12 +16,12 @@ body {
 }
 
 .aside {
-  padding: 2rem;
+  padding: 1rem;
   padding-right: 0;
   color: white;
   position: sticky;
   top: 0;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,7 +29,7 @@ body {
 
 .logo {
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .menu {
@@ -49,12 +49,7 @@ body {
   font-weight: 600;
   padding: 1rem;
   font-size: 1.5rem;
-  width: 100%;
 }
 
-.texto-footer {
-  color: white;
-  font-size: .85rem;
-}
 
   
