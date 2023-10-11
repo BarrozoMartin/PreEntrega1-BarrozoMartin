@@ -1,39 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
-
 
 const Navbar = () => {
   return (
     <div>
-      <aside className="aside">
+      <aside>
         <header>
-          <h1 className="logo">Buhonero</h1>
+        <Link to="/">
+          <img className="logo" src="src\components\assets\img\buhoneroicon.png" alt="" /> 
+          </Link>
           <h2>Got some rare things on sale, stranger!</h2>
+
         </header>
         <nav className="nav">
           <ul>
             <li>
-              <button id="todos" className="boton-menu">
-                Todos los productos
-              </button>
-            </li>
-            <button id="electronica" className="boton-menu">
-              Electronica
-            </button>
-            <li>
-              <button id="farmacia" className="boton-menu">
-                Farmacia
-              </button>
+              <Link to="/" className="menu">Todos los productos</Link>
             </li>
             <li>
-              <button id="ferreteria" className="boton-menu">
-                Ferreteria
-              </button>
+              <Link to="/electronica" className="menu">Electronica</Link>
             </li>
             <li>
-              <button id="indumentaria" className="boton-menu">
-                Indumentaria
-              </button>
+              <Link to="/farmacia" className="menu">Farmacia</Link>
+            </li>
+            <li>
+              <Link to="/ferreteria" className="menu">Ferreteria</Link>
+            </li>
+            <li>
+              <Link to="/indumentaria" className="menu">Indumentaria</Link>
             </li>
           </ul>
         </nav>
@@ -43,4 +38,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

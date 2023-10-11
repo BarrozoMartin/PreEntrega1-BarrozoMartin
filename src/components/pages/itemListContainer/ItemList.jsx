@@ -1,5 +1,4 @@
 import React from "react";
-import "./ItemList.css"; // Importa el archivo CSS
 import ProductCard from "../../common/productCard/ProductCard";
 
 const ItemList = ({ items }) => {
