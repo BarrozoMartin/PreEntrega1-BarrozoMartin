@@ -8,10 +8,11 @@ export const ItemDetail = ({ productSelected, onAdd }) => {
 
       {productSelected.category === "indumentaria" && (
         <div className="indumentaria">
-          <p><h3>{productSelected.description}</h3></p>
+          <p><h1>{productSelected.description}</h1></p>
           <p>Precio: ${productSelected.price}</p>
           <p>Talle: {productSelected.size}</p>
           <p>Color: {productSelected.color}</p>
+          <p>Detalles: {productSelected.details}</p>
           <button className="btnComprar" onClick={() => onAdd(productSelected)}>Comprar</button>
         </div>
       )}
@@ -19,8 +20,8 @@ export const ItemDetail = ({ productSelected, onAdd }) => {
       {productSelected.category === "electronica" && (
         <div className="electronica">
           <p><h1>{productSelected.tittle}</h1></p>
-          <p>Precio: ${productSelected.price}</p>
           <p>Marca: {productSelected.brand}</p>
+          <p>Precio: ${productSelected.price}</p>
           <p>Detalles: {productSelected.details}</p>
           <button className="btnComprar" onClick={() => onAdd(productSelected)}>Comprar</button>
         </div>
@@ -28,9 +29,20 @@ export const ItemDetail = ({ productSelected, onAdd }) => {
 
       {productSelected.category === "farmacia" && (
         <div className="farmacia">
+          <p><h1>{productSelected.tittle}</h1></p>
+          <p>Marca: {productSelected.brand}</p>
           <p>Precio: ${productSelected.price}</p>
-          <p>Uso: {productSelected.use}</p>
-          <p>Ingredientes: {productSelected.ingredients}</p>
+          <p>Detalles: {productSelected.details}</p>
+          <button className="btnComprar" onClick={() => onAdd(productSelected)}>Comprar</button>
+        </div>
+      )}
+
+{productSelected.category === "ferreteria" && (
+        <div className="ferreteria">
+          <p><h1>{productSelected.tittle}</h1></p>
+          <p>Marca: {productSelected.brand}</p>
+          <p>Precio: ${productSelected.price}</p>
+          <p>Detalles: {productSelected.details}</p>
           <button className="btnComprar" onClick={() => onAdd(productSelected)}>Comprar</button>
         </div>
       )}
