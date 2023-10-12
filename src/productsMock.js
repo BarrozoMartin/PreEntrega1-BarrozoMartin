@@ -2,80 +2,96 @@ export let products = [
     {
         id: 1,
         tittle: "Slipknot",
-        price: 900,
+        price: 8900,
         stock: 6,
         description: "Remera de Spliknot",
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176173/remera01_ec20ba.jpg"
         
     },
     {
         id: 2,
         tittle: "Slipknot",
-        price: 900,
+        price: 6500,
         stock: 3,
         description: "Remera de Spliknot",
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176173/remera02_zjyunt.jpg"
         
     },
     {
         id: 3,
         tittle: "Slipknot",
-        price: 900,
+        price: 6500,
         stock: 2,
         description: "Remera de Spliknot",
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176173/remera03_hcljue.jpg"
         
     },
     {
         id: 4,
         tittle: "Slipknot",
-        price: 900,
+        price: 5500,
         stock: 8,
         description: "Remera de Spliknot",
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176173/remera04_jvxrvd.jpg"
         
     },
     {
         id: 5,
         tittle: "Slipknot",
-        price: 900,
+        price: 5600,
         stock: 1,
         description: "Remera de Spliknot",
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176173/remera05_u9lmqx.jpg"
         
     },
     {
         id: 6,
         tittle: "Slipknot",
-        price: 900,
+        price: 8900,
         stock: 9,
         description: "Remera de Spliknot",
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176174/remera06_izow1h.jpg"
         
     },
     {
         id: 7,
         tittle: "Slipknot",
-        price: 900,
+        price: 8900,
         stock: 6,
         description: "Remera de Spliknot", 
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176173/remera07_fnozui.jpg"
         
     },
     {
         id: 8,
         tittle: "Slipknot",
-        price: 900,
+        price: 8900,
         stock: 5,
         description: "Remera de Spliknot",
         category: "indumentaria",
+        color: "negro",
+        size: "S | M | L | XL | XXL",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696176174/remera08_gcvi4g.jpg"
         
     },
@@ -96,6 +112,7 @@ export let products = [
         stock: 5,
         description: "Notebook gamer",
         category: "electronica",
+        details: "Pantalla FullHD 1920 × 1080 IPS 144 Hz Procesador , AMD Ryzen 7 5800H 4.4 GHz Memoria 16GB 3200 Mhz DDR4 SODIMM Almacenamiento SSD 512GB M.2 NVME PCI-e Video GeForce RTX™ 3050 Laptop GPU Sistema operativo Windows 10",
         img: "https://res.cloudinary.com/dob2vpzui/image/upload/v1696873464/notebook_jyxc6l.png"
         
     },

@@ -8,7 +8,7 @@ const Navbar = () => {
       <aside>
         <header>
         <Link to="/">
-          <img className="logo" src="src\components\assets\img\buhoneroicon.png" alt="" /> 
+        <img className="logo" src="src\components\assets\img\buhoneroicon.png" alt="" /> 
           </Link>
           <h2>Got some rare things on sale, stranger!</h2>
 

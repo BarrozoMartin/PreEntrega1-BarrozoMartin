@@ -13,7 +13,7 @@ const ItemListContainer = () => {
     const productosFiltrados = products.filter( product => product.category === categoryName)
    
     const tarea = new Promise((resolve, reject) => {
-      resolve( categoryName ? productosFiltrados : products );
+      resolve( categoryName ? productosFiltrados : products ); 
     });
 
     tarea.then((res) => setItems(res)).catch((error) => console.log(error));

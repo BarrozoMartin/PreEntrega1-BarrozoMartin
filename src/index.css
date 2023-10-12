@@ -8,7 +8,7 @@
 }
 
 
-h1, p, a, ul {
+h1, p, a, ul, li {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -31,6 +31,7 @@ header h1 h2 {
 }
 body {
   background-image: url(../src/components/assets/img/pjbuhonero.png);
+  z-index: 100;
 }
 
 aside {
@@ -45,17 +46,20 @@ aside {
   flex-direction: column;
   justify-content: space-between;
 }
+aside  li {
+  width: 35vh;
+}
 
 section {
   background-color: gray;
   border-radius: 25px;
   position: absolute;
   display: grid;
-  width: 75%;
+  width: 76%;
   top: 0;
-  margin-left: 25%;
-  padding: 2rem;
+  margin-left: 24%;
+  padding: 1rem;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem; 
+  gap: 1rem; 
   justify-content: center; 
 }

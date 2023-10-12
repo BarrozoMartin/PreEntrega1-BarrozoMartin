@@ -1,14 +1,14 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import CounterPresentacional from "./CounterPresentacional";
 
-const CounterContainer = ({ stock }) => {
+const CounterContainer = ({ product }) => {
   const [contador, setContador] = useState(1);
 
   const sumar = () => {
-    if (contador < stock) {
+    if (contador < product.stock) {
       setContador(contador + 1);
     } else {
-      alert("cantidad maxima");
+      alert("Cantidad máxima alcanzada");
     }
   };
 
